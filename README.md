@@ -7,7 +7,7 @@ Paper Link
 The full article is published in Healthcare Technology Letters (2025): https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/htl2.70050
 
 MICCAI - AE-CAI 2025 POSTER
-!(aecai2025 (1).pdf)
+![sample](aecai2025 (1).pdf)
 
 ## Citation
 If you find this work useful in your research, please cite our paper:

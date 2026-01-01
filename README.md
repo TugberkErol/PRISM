@@ -8,7 +8,7 @@ The full article is published in Healthcare Technology Letters (2025): https://i
 
 ##POSTER
 MICCAI - AE-CAI 2025 
-!(aecai2025.png)
+![sample](aecai2025.png)
 
 ## Citation
 If you find this work useful in your research, please cite our paper:

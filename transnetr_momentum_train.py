@@ -62,7 +62,8 @@ class SegTrainer:
                 if epoch < self.config.SD_THRESHOLD:
                     t_param.data.copy_(m_param.data)
                 else:
-                    t_param.data = self.config.MOMENTUM * t_param.data + (1 - self.config.MOMENTUM) * m_param.data
+                    new_v = self.config.MOMENTUM * t_param.data + (1 - self.config.MOMENTUM) * m_param.data
+                    t_param.data.copy_(new_v)
 
     def train_epoch(self, loader, epoch):
         self.model.train()
